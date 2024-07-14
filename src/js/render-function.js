@@ -13,10 +13,10 @@ export function markupImages(images) {
             src="${image.webformatURL}"
             alt="${image.tags}" />
           <div class="image-info">
-            <p>Likes: ${image.likes}</p>
-            <p>Views: ${image.views}</p>
-            <p>Comments: ${image.comments}</p>
-            <p>Downloads: ${image.downloads}</p>
+            <p>Likes ${image.likes}</p>
+            <p>Views ${image.views}</p>
+            <p>Comments ${image.comments}</p>
+            <p>Downloads ${image.downloads}</p>
           </div>
         </a>
       </li>`;
