@@ -67,6 +67,22 @@ p {
   background-color: rgba(78, 117, 255, 1);
 }
 
+.loadmore-button {
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: white;
+  background-color: rgba(78, 117, 255, 1);
+}
+
 /* CSS loder /////////////////////////// */
 
 .hidden {

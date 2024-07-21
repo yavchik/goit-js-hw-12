@@ -22,5 +22,5 @@ export function markupImages(images) {
       </li>`;
     })
     .join('');
-  refs.imgGallery.innerHTML = markup;
+  refs.imgGallery.insertAdjacentHTML('beforeend', markup);
 }
